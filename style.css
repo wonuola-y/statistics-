@@ -66,17 +66,17 @@ h1{
 }
 p{
     color:hsla(0, 0%, 100%, 0.75);
-    margin: 16px 0;
+    margin: 31px 0;
     font-size: 16px;
 }
 b{
     font-size: 20px;
-    color: hsla(0, 0%, 100%, 0.6);
+    color: hsla(0, 0%, 100%, 0.975);
 }
 li{
     display: flex;
     flex-direction: column;
-    color:hsla(0, 0%, 100%, 0.75);
+    color:rgba(255, 255, 255, 0.626);
     margin: 25px;
 }
  .text-container{
@@ -110,7 +110,7 @@ span{
     }
     .text-container{
         max-width: 500px;
-        padding: 70px;
+        padding: 60px;
         text-align: start;
         width: 50%;
         font-family: 'Lexend Deca', sans-serif;
@@ -128,7 +128,7 @@ span{
         font-family: 'Lexend Deca', sans-serif;
         justify-content: space-between;
         margin: 0;
-        /* margin-top: 90px; */
+        margin-top: 70px;
 
     }
     li{
