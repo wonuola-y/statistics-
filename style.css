@@ -36,7 +36,7 @@ margin-top: 140px;
    
     display: flex;
     flex-direction: column;
-    background-color: rgb(68, 2, 68);
+    background-color: rgb(53, 2, 68);
    border-radius: 12px 12px 0px 0px;
     overflow: hidden;
 
@@ -100,11 +100,13 @@ span{
         align-content: center;
         flex-flow: nowrap row-reverse;
         margin: 60px;
+        
 
       
     }
     .picture-container{
         width: 50%;
+        /* height: 100%; */
     }
     .text-container{
         max-width: 500px;
@@ -112,10 +114,11 @@ span{
         text-align: start;
         width: 50%;
         font-family: 'Lexend Deca', sans-serif;
+        height: 50%;
     }
     .desktop{
         display: block;
-        height: 550px;
+        height: 95%;
     }
     .mobile{
         display:none;
@@ -125,7 +128,7 @@ span{
         font-family: 'Lexend Deca', sans-serif;
         justify-content: space-between;
         margin: 0;
-        margin-top: 100px;
+        /* margin-top: 90px; */
 
     }
     li{
